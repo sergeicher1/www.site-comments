@@ -1,11 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div>Hello World!</div>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Blog Post</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background: #f9f9f9;
+      color: #333;
+    }
+    h1 {
+      font-size: 2rem;
+    }
+    #comments {
+      margin-top: 60px;
+      padding-top: 20px;
+      border-top: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Hello, this is a Blog Post!</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel sem vel justo placerat malesuada.</p>
+
+  <!-- Comments Section -->
+  <div id="comments">
+    <h2>Comments</h2>
+
+    <script src="https://giscus.app/client.js"
+      data-repo="sergeicher1/www.site-comments"
+      data-repo-id="YOUR-REPO-ID"
+      data-category="General"
+      data-category-id="YOUR-CATEGORY-ID"
+      data-mapping="pathname"
+      data-strict="0"
+      data-reactions-enabled="1"
+      data-emit-metadata="0"
+      data-theme="light"
+      crossorigin="anonymous"
+      async>
+    </script>
+  </div>
+
+</body>
 </html>
